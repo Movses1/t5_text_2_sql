@@ -10,6 +10,8 @@ code sql query: schema: ...(enter schema) question: ...(enter question)
 
 code sql query:
 
-schema: "| department : department_id , name , creation , ranking , budget_in_billions , num_employees | head : head_id , name , born_state , age | management : department_id , head_id , temporary_acting | management.head_id = head.head_id | management.department_id = department.department_id |"
+schema: | department : department_id , name , creation , ranking , budget_in_billions , num_employees | head : head_id , name , born_state , age | management : department_id , head_id , temporary_acting | management.head_id = head.head_id | management.department_id = department.department_id |
 
 question: How many heads of the departments are older than 56 ?
+
+* without new lines. *
