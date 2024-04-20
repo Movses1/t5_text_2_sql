@@ -14,4 +14,4 @@ schema: | department : department_id , name , creation , ranking , budget_in_bil
 
 question: How many heads of the departments are older than 56 ?
 
-**without new lines.**
+**all in the same line.**
