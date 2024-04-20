@@ -6,7 +6,7 @@ the input format is as follows.
 code sql query: schema: ...(enter schema) question: ...(enter question)
 
 
-example:
+### example:
 
 code sql query:
 
