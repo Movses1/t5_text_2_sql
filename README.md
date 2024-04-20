@@ -1,7 +1,7 @@
 # t5_text_2_sql
 pretraining t5 model for text 2 sql task using huggingface.
 
-The ideal evaluation method for text to sql would be to run the queries to see how many of them run at all + syntactic correctness, how many give the exact table that we wanted and compare the execution time and memory complexities with the original query. However for simplicity i'll just go with SacreBLEU.
+__The ideal evaluation method__ for text to sql would be to run the queries to see how many of them run at all + syntactic correctness, how many give the exact table that we wanted and compare the execution time and memory complexities with the original query. However for simplicity i'll just go with SacreBLEU.
 
 ### the input format is as follows.
 
